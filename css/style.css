@@ -165,6 +165,8 @@ body{
     bottom: 120px;
     left: 26px;
     color: white;
+    padding-left: 100px;
+    padding-right: 180px;
     
 }
 .article-paragraph{
@@ -172,6 +174,8 @@ body{
     bottom: 70px;
     left: 26px;
     color: white;
+    padding-left: 100px;
+    padding-right: 180px;
 }
 .city{
     position: absolute;
@@ -185,6 +189,7 @@ body{
     cursor: pointer;
     float: left;
     padding-left: 100px;
+
 }
 .hide{
     display: none;
@@ -192,6 +197,8 @@ body{
     bottom: 70px;
     left: 26px;
     color: white;
+    padding-left: 100px;
+    padding-right: 180px;
 }
 .section3-div1:hover .article-paragraph{
     display: none;
@@ -212,6 +219,8 @@ body{
     bottom: 70px;
     left: 26px;
     color: white;
+    padding-left: 100px;
+    padding-right: 180px;
 }
 .section3-div2:hover .hide {
     display: block;
