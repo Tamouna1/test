@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 7px 3px;
+    align-items: center;
+}
+.header a {
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+.header a.logo{
+    color: #fa6bdd;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header a:hover {
+  color:black;
+  font-weight: bold;
+}
+.header a:hover {
+    color: black;
+    font-weight: bold;
+}
+.header a.active {
+    color: black;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+.header-right {
+      float: none;
+    }
+}
+.img1{
+    float: right;
+    padding: 6px;
+    cursor: pointer;
+}
+.img2{
+    width: 840px;
+    height: 600px;
+}
+.main-div{
+    float: left;
+}
+.img-div{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.text-div{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-30%, -40%);
+}
+.line{
+    position: absolute;
+    border: 1px solid white;
+    width: 600px;
+    float: left;
+}
+.header2{
+    padding-top: 15px;
+}
+.btn1{
+    float: left;
+    border-radius: 5px;
+    background-color: #fa6bdd;
+    border-style: none;
+    color: white;
+    height: 40px;
+    width: 134px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section1{
+    display: inline-block;
+}
+.section2{
+    padding: 20px;
+}
+.section2-2{
+    text-align:  center;
+}
+.line2{
+    border: 1px solid lightgray;
+    width: 600px;
+    float: left;
+}
+.section2-div1{
+    display: inline-block;
+    padding: 30px;
+}
+.section2-header{
+    padding-left: 100px;
+    display: inline-block;
+   
+}
+.arrow1{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.arrow2{
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+.arrow2.active{
+    color: lightgrey; 
+}
+.section2-div2{
+    display: inline-block;
+    padding: 30px;
+}
+.section2-div3{
+    display: inline-block;
+    padding: 30px;
+}
+.divparagraph{
+    width: 280px;
+}
+.section3-header{
+    padding-left: 100px;
+    display: inline-block;
+}
+.section3{
+    padding-left: 50px;
+}
+.section3-div1{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    padding-left: 100px;
+}
+.article-header{
+    position: absolute;
+    bottom: 120px;
+    left: 26px;
+    color: white;
+    
+}
+.article-paragraph{
+    position: absolute;
+    bottom: 70px;
+    left: 26px;
+    color: white;
+}
+.city{
+    position: absolute;
+    top: 8px;
+    left: 26px;
+    color: white;
+}
+.section3-div2{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    padding-left: 100px;
+}
+.hide{
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    left: 26px;
+    color: white;
+}
+.section3-div1:hover .article-paragraph{
+    display: none;
+}
+.section3-div1:hover .hide {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 26px;
+    color: white;
+}
+.section3-div2:hover .article-paragraph{
+    display: none;
+}
+.hide{
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    left: 26px;
+    color: white;
+}
+.section3-div2:hover .hide {
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 26px;
+    color: white;
+}
+.section3-div3{
+    display: inline-block;
+    flex-direction: column;
+    float:right;
+    padding-left: 100px;
+    padding-right: 180px;
+
+}
